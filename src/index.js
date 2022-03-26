@@ -1,4 +1,6 @@
 // import './styles/main.scss';
 import './styles/main.css';
+import gridSvgSrc from './assets/grid.svg';
 
-// Do some stuff
+const gridImg = document.getElementById('gridImg');
+gridImg.src = gridSvgSrc;
